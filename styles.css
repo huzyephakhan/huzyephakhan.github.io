@@ -26,7 +26,8 @@
 }
 
 .hometextp,
-.abouttextp {
+.abouttextp,
+.toolstext {
   font-size: 20px;
 }
 
@@ -89,25 +90,30 @@
 }
 
 #toolsskills {
-  height: 70vh;
+  height: 60vh;
   justify-content: flex-start;
-  background-color: rgb(255, 153, 0);
 }
 
 .toolsskillscont {
-    background-color: white;
-    width: 400px;
-    height: 450px;
+    color: #6e85b2;
+    width: 300px;
+    height: 300px;
+    background-color: #261c2c;
+    border: 2px #6e85b2 solid;
+    border-radius: 20px;
 }
 
 .toolsskillsconttitle {
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: 700;
     text-align: center;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
-#infocont {
+#ddainfocont {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     gap: 20px;
@@ -117,7 +123,6 @@
     width: 50px;
     height: 50px;
 }
-
 
 html {
   scroll-behavior: smooth;
