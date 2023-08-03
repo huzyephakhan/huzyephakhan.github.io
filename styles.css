@@ -24,14 +24,27 @@
 }
 
 .hometextp {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 20px;
-    width: 700px;
+    width: 760px;
 }
 
 .homebutton {
+    font-size: 20px;
+    color: #6E85B2;
+    background-color: #3E2C41;
+    border-radius: 20px;
+    border: 2px #6E85B2 solid;
     margin-top: 10px;
     margin-left: 50px;
+    width: 160px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.homebutton:hover {
+    cursor: pointer;
+    background-color: #5C527F;
 }
 
 #about {
