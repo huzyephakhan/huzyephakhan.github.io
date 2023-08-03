@@ -13,9 +13,10 @@
 }
 
 .homebutton:hover,
-.aboutbuttons:hover {
+.aboutbuttons:hover,
+.toolsskillscont:hover {
   cursor: pointer;
-  background-color: #5c527f;
+  background-color: #3e2c41;
 }
 
 .hometext,
@@ -110,8 +111,6 @@
 }
 
 .toolsskillscont:hover {
-  cursor: pointer;
-  background-color: #3e2c41;
   transform: translateY(-10px);
 }
 
@@ -161,8 +160,20 @@
 }
 
 .ddacont {
-  width: 370px;
+  width: 350px;
   height: 160px;
+}
+
+#footer {
+  height: 10vh;
+  background-color: #261c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footertext {
+  color: #6e85b2;
 }
 
 html {
