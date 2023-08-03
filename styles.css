@@ -21,7 +21,8 @@
 
 .hometext,
 .abouttext,
-.toolsskillstext {
+.toolsskillstext,
+.projectstext {
   color: #6e85b2;
   margin-left: 50px;
 }
@@ -34,7 +35,8 @@
 
 #home,
 #about,
-#toolsskills {
+#toolsskills,
+#projects {
   background-color: #261c2c;
   display: flex;
   flex-direction: column;
@@ -69,7 +71,8 @@
 }
 
 #about,
-#toolsskills {
+#toolsskills,
+#projects {
   height: 50vh;
   justify-content: flex-start;
 }
