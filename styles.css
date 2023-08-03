@@ -2,7 +2,7 @@
   font-family: Roboto, Arial;
 }
 
-#home{
+#home {
     height: 100vh;
     background-color: #261C2C;
     display: flex;
@@ -24,18 +24,20 @@
 }
 
 .hometextp {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: justify;
     margin-top: 20px;
     width: 760px;
 }
 
 .homebutton {
     font-size: 20px;
+    font-weight: bold;
     color: #6E85B2;
-    background-color: #3E2C41;
+    background-color: #261C2C;
     border-radius: 20px;
     border: 2px #6E85B2 solid;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 50px;
     width: 160px;
     height: 50px;
@@ -49,6 +51,21 @@
 
 #about {
     height: 50vh;
+    background-color: #261C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.abouttext {
+    color: #6E85B2;
+    text-align: justify;
+    margin-left: 50px;
+    width: 900px;
+}
+
+.abouttextp {
+    font-size: 20px;
 }
 
 html {
