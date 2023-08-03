@@ -1,0 +1,48 @@
+* {
+  font-family: Roboto, Arial;
+}
+
+#home{
+    height: 100vh;
+    background-color: #261C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hometext {
+    color: #6E85B2;
+    margin-left: 50px;
+}
+
+.hometexttitle {
+    font-size: 70px;
+}
+
+.hometextsubtitle {
+    font-size: 40px;
+}
+
+.hometextp {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 700px;
+}
+
+.homebutton {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#about {
+    height: 50vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
