@@ -67,7 +67,8 @@
   height: 45px;
 }
 
-#about {
+#about,
+#toolsskills {
   height: 50vh;
   justify-content: flex-start;
 }
@@ -89,10 +90,11 @@
   height: 50px;
 }
 
-#toolsskills {
-  background-color: white;
-  height: 200vh;
-  justify-content: flex-start;
+#toolsskillmaincont {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 .toolsskillscont {
@@ -129,6 +131,7 @@
 
 .networkingcont {
   width: 330px;
+  height: 270px;
 }
 
 .toolsimg {
@@ -138,7 +141,7 @@
 
 .round {
   border-radius: 30%;
-} 
+}
 
 .metasploitlogo {
   width: 35px;
@@ -152,6 +155,12 @@
 
 .programmingcont {
   width: 270px;
+  height: 270px;
+}
+
+.ddacont {
+  width: 370px;
+  height: 160px;
 }
 
 html {
