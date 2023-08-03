@@ -133,6 +133,8 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #6e85b2 #261c2c;
 }
 
 body {
