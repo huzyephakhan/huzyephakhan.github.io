@@ -91,7 +91,7 @@
 
 #toolsskills {
   background-color: white;
-  height: 100vh;
+  height: 200vh;
   justify-content: flex-start;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .networkingcont {
-  width: 350px;
+  width: 330px;
 }
 
 .toolsimg {
@@ -136,14 +136,22 @@
   height: 50px;
 }
 
+.round {
+  border-radius: 30%;
+} 
+
 .metasploitlogo {
-  width: 50px;
-  height: 70px;
+  width: 35px;
+  height: 50px;
 }
 
 .nmaplogo {
   width: 90px;
   height: 50px;
+}
+
+.programmingcont {
+  width: 270px;
 }
 
 html {
