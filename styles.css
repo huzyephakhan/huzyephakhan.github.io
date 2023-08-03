@@ -7,7 +7,7 @@
   font-weight: bold;
   color: #6e85b2;
   background-color: #261c2c;
-  border-radius: 20px;
+  border-radius: 30px;
   border: 2px #6e85b2 solid;
   transition: 0.3s;
 }
@@ -78,7 +78,7 @@
 
 #aboutbuttonscont {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   margin-left: 50px;
 }
 
@@ -89,9 +89,35 @@
 }
 
 #toolsskills {
-  height: 50vh;
+  height: 70vh;
   justify-content: flex-start;
+  background-color: rgb(255, 153, 0);
 }
+
+.toolsskillscont {
+    background-color: white;
+    width: 400px;
+    height: 450px;
+}
+
+.toolsskillsconttitle {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+#infocont {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+.toolsimg {
+    width: 50px;
+    height: 50px;
+}
+
 
 html {
   scroll-behavior: smooth;
