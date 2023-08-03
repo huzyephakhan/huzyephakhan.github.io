@@ -90,7 +90,8 @@
 }
 
 #toolsskills {
-  height: 60vh;
+  background-color: white;
+  height: 100vh;
   justify-content: flex-start;
 }
 
@@ -118,7 +119,7 @@
   margin-bottom: 25px;
 }
 
-#ddainfocont {
+.infocont {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -126,8 +127,22 @@
   gap: 20px;
 }
 
+.networkingcont {
+  width: 350px;
+}
+
 .toolsimg {
   width: 50px;
+  height: 50px;
+}
+
+.metasploitlogo {
+  width: 50px;
+  height: 70px;
+}
+
+.nmaplogo {
+  width: 90px;
   height: 50px;
 }
 
