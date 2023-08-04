@@ -25,6 +25,9 @@
   border-radius: 30px;
   border: 2px #6e85b2 solid;
   transition: 0.3s;
+}
+
+.homebutton {
   animation: fadeIn 1s ease-in;
 }
 
@@ -196,10 +199,10 @@
 }
 
 .projectinfocont {
-  width: 1830px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap-reverse;
   align-items: center;
+  gap: 20px;
 }
 
 .projectimgcont {
@@ -210,7 +213,7 @@
 .projectimg {
   width: 670px;
   height: 354px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .projectinfotitle {
