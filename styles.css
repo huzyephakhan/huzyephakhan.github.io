@@ -2,6 +2,21 @@
   font-family: Signika, Roboto, Arial;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hometext,
+.homebutton {
+  animation: fadeIn 1s ease-in;
+}
+
 .homebutton,
 .aboutbuttons {
   font-weight: bold;
@@ -10,6 +25,7 @@
   border-radius: 30px;
   border: 2px #6e85b2 solid;
   transition: 0.3s;
+  animation: fadeIn 1s ease-in;
 }
 
 .homebutton:hover,
