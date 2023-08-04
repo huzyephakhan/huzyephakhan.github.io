@@ -8,7 +8,6 @@ This is my first portfolio website made entirely in html/css.
 - [x] About
 - [x] Tools & Skills
 - [ ] Projects
-- [ ] Blog
 
 ## 🎨 Color Palette
 
