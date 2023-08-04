@@ -168,29 +168,36 @@
 }
 
 #projects {
-  height: 100vh;
+  height: 95vh;
 }
 
-#elkmaincont {
+#projectsmaincont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
   margin-left: 50px;
+}
+
+.projectinfocont {
   width: 1830px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#elkimgcont {
+.projectimgcont {
   display: flex;
   gap: 15px;
 }
 
-.elkcontimg {
+.projectimg {
   width: 670px;
   height: 354px;
   border-radius: 20px;
 }
 
-#elkconttext {
+.projectinfotitle {
   color: #6e85b2;
   width: 440px;
   text-align: center;
@@ -203,12 +210,12 @@
   font-size: 20px;
 }
 
-#elkbuttons {
+.projectbuttons {
   margin-top: -15px;
   margin-bottom: -5px;
 }
 
-.elkbutton {
+.projectbutton {
   font-weight: bold;
   color: #6e85b2;
   background-color: #261c2c;
@@ -216,14 +223,14 @@
   transition: 0.3s;
 }
 
-.elkbutton:hover {
+.projectbutton:hover {
   background-color: #3e2c41;
 }
 
 .reportbutton {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
-  width: 140px;
+  width: 130px;
   height: 40px;
   margin-top: -5px;
   color: #6e85b2;
