@@ -167,6 +167,77 @@
   height: 160px;
 }
 
+#projects {
+  height: 100vh;
+}
+
+#elkmaincont {
+  margin-left: 50px;
+  width: 1830px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#elkimgcont {
+  display: flex;
+  gap: 15px;
+}
+
+.elkcontimg {
+  width: 670px;
+  height: 354px;
+  border-radius: 20px;
+}
+
+#elkconttext {
+  color: #6e85b2;
+  width: 440px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectconttextp {
+  font-size: 20px;
+}
+
+#elkbuttons {
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+
+.elkbutton {
+  font-weight: bold;
+  color: #6e85b2;
+  background-color: #261c2c;
+  border: 2px #6e85b2 solid;
+  transition: 0.3s;
+}
+
+.elkbutton:hover {
+  background-color: #3e2c41;
+}
+
+.reportbutton {
+  font-size: 20px;
+  font-weight: bold;
+  width: 140px;
+  height: 40px;
+  margin-top: -5px;
+  color: #6e85b2;
+  background-color: #261c2c;
+  border: 2px #6e85b2 solid;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.reportbutton:hover {
+  cursor: pointer;
+  background-color: #3e2c41;
+}
+
 #footer {
   height: 10vh;
   background-color: #261c2c;
