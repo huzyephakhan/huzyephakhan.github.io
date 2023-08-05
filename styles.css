@@ -196,6 +196,7 @@
 #projectsmaincont {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 30px;
   margin-left: 50px;
 }
