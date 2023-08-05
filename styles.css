@@ -58,6 +58,7 @@
   background-color: #261c2c;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 #home {
@@ -88,11 +89,13 @@
   height: 45px;
 }
 
-#about,
+#about {
+  height: 60vh;
+}
+
 #toolsskills,
 #projects {
-  height: 50vh;
-  justify-content: flex-start;
+  height: 53vh;
 }
 
 .abouttext {
@@ -187,27 +190,23 @@
 }
 
 #projects {
-  height: 95vh;
+  height: 60vh;
 }
 
 #projectsmaincont {
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
   gap: 30px;
-  margin-top: 30px;
   margin-left: 50px;
 }
 
 .projectinfocont {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   align-items: center;
+  border-radius: 30px;
+  transition: 0.3s;
   gap: 20px;
-}
-
-.projectimgcont {
-  display: flex;
-  gap: 15px;
 }
 
 .projectimg {
